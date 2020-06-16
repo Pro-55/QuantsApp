@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/product_sans_regular</item>
+    </style>
+
+    <style name="styleTabLayout" parent="TextAppearance.Design.Tab">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+    </style>
+
+    <style name="tabTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_primary_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>
